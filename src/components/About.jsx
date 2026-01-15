@@ -20,16 +20,6 @@ const About = () => {
             </p>
 
             <div className='flex flex-col  items-center '>
-                   {/* <div className='md:w-1/2 rounded-2xl overflow-hidden'>
-                        <motion.img
-                        initial={{opacity:0,y:50}}
-                        whileInView={{opacity:1,y:0}}
-                        transition={{duration:0.9, ease:'easeOut'}}
-                        viewport={{once:false, amount:0.2}}
-                        className='w-full h-full object-cover'
-                        src={assets.payal_photo} alt='Profile'
-                        />
-                   </div> */}
 
                    <motion.div
                        initial={{opacity:0,y:50}}

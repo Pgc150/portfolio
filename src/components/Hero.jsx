@@ -26,7 +26,7 @@ const Hero = () => {
                  </p>
 
                  <div>
-                    <a href='#projects' className='px-6 py-3 bg-purple
+                    <a href='/Payal_Chavhan_8668992051.pdf' download target='_blank' className='px-6 py-3 bg-purple
                     rounded-lg font-medium hover:bg-purple-700 transition duration-200 mr-2'>Download Resume</a>
                     <a href='#contact' className='px-6 py-3 border border-purple 
                     rounded-lg font-medium hover:bg-purple/20 transition
@@ -51,7 +51,7 @@ const Hero = () => {
                     }}
                     className='relative rounded-full w-64 h-64 md:w-80 md:h-80 
                      object-cover z-10 animate-float'
-                    src={assets.payal_photo} alt='Profile'></motion.img>
+                    src={assets.payal_image} alt='Profile'></motion.img>
                 </div>
             </div>
          </div>

@@ -17,12 +17,12 @@ const ProjectCard = ({title,description,image,tech,demo,code}) => {
                 ))}
             </div>
             <div className='flex gap-2'>
-                <a href={demo} className='flex-1 text-center px-4 py-2 
+                <a href={code} target='_blank'  className='flex-1 text-center px-4 py-2 
                 bg-purple rounded-lg hover:bg-purple-700 transition duration-300'>
                     View Demo
                 </a>
 
-                <a href={code} className='flex-1 text-center px-4 py-2 border border-purple font-medium
+                <a href={code} target='_blank' className='flex-1 text-center px-4 py-2 border border-purple font-medium
                 rounded-lg hover:bg-purple/20 transition duration-300'>Code</a>
             </div>
         </div>

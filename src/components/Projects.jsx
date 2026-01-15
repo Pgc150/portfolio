@@ -23,7 +23,7 @@ const Projects = () => {
              {/* Project card */}
              {
                 projects.map((project,index)=>(
-                    <ProjectCard key={index} {...project}/>
+                    <ProjectCard key={index} {...project} />
                 ))
              }
            </div>

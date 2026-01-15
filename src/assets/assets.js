@@ -6,14 +6,17 @@ import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
+
+import payal_image from '../assets/payal_image.avif'
+
 import projectImg6 from '../assets/project6.avif';
-import payal_photo from '../assets/payal_photo.avif'
+import payal_photo from '../assets/payal_photo.avif'  //old one
 import food_delivery from '../assets/food_delivery.avif'
 import chat_app from '../assets/chat_app.avif'
 import expense_tracker from '../assets/expense_tracker.avif'
 import portfolio from '../assets/portfolio.avif'
 export const assets = {
-    profileImg,payal_photo
+    profileImg,payal_photo,payal_image
 }
 
 
@@ -113,7 +116,7 @@ export const projects = [
     tech: ["React Js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
     demo: "#",
-    code: "#",
+    code: "https://github.com/Pgc150/portfolio",
   },
   {
     title: "Expense Tracker",
